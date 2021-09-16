@@ -1,0 +1,9 @@
+
+document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
+
+function mostrar_menu(){
+
+    document.getElementById("move-content").classList.toggle('move-container_all');
+
+    document.getElementById("menu_show").classList.toggle('show-menu');
+}
